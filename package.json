@@ -1,0 +1,20 @@
+{
+  "name": "Proyeccion-InternetVSEPN",
+  "author": {
+    "name": "Roberto Hidalgo",
+    "email": "<un@rob.mx>",
+    "url": "http://rob.mx"
+  },
+  "repository": {
+    "type": "git",
+    "url" : "http://github.com/1dmx/EPNvsInternet.git"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "license": "WTFPL",
+  "dependencies": {
+    "twit": "~1.1.13",
+    "express.io": "~1.1.13",
+    "ejs": "~1.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+// Copiamos esto a config.json y creamos nuestro app de tuiter en http://dev.twitter.com
+// Todas las líneas que empiezan con "//", incluyendo estas deben de ser borradas
+// antes de comenzar la aplicación!
+{
+	"twitter": {
+		"consumer_key": "",
+		"consumer_secret": "",
+		"access_token": "",
+		"access_token_secret": ""
+	},
+	// Los hashtags que queremos trackear
+	"hashtags":[
+		"epnvsinternet",
+		"internetvsepn",
+		"nomaspoderalpoder"
+	],
+	// El puerto en el correrá la aplicación
+	"port": 6547,
+	//El título de nuestra campaña
+	"titulo": "#EPNvsInternet"
+}
