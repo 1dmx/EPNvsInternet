@@ -8,30 +8,34 @@ Tenemos que crear un app de [Twitter](http://dev.twitter.com) y copiar el archiv
 
 ## Config.json
 
+Copiamos esto a config.json y creamos nuestro app de tuiter en http://dev.twitter.com
+Todas las líneas que empiezan con `//`, deben de ser borradas antes de comenzar la aplicación!
+
 ```json
-// Copiamos esto a config.json y creamos nuestro app de tuiter en http://dev.twitter.com
-// Todas las líneas que empiezan con "//", incluyendo estas deben de ser borradas
-// antes de comenzar la aplicación!
 {
     "twitter": {
         "consumer_key": "",
         "consumer_secret": "",
-        // Para esto, debemos de crear el access_token de nuestra aplicación!
         "access_token": "",
         "access_token_secret": ""
     },
-    // Los hashtags que queremos trackear
     "hashtags":[
         "epnvsinternet",
         "internetvsepn",
         "nomaspoderalpoder"
     ],
-    // El puerto en el correrá la aplicación, por default 6547 (opcional)
     "port": 6547,
-    //El título de nuestra campaña
     "titulo": "#EPNvsInternet"
 }
 ```
+
+Dónde `twitter` son las llaves de tu aplicación de tuiter,
+
+`hashtags` los HT que queremos monitorear,
+
+`port` (opcional), el puerto en el que queramos correr la aplicación, y
+
+`titulo`, el título de nuestra campaña
 
 ## Y luego?
 

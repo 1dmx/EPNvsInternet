@@ -25,7 +25,7 @@ if (!fs.existsSync(__dirname+'/config.json')) {
 var config = require(__dirname+'/config.json');
 var T = new Twit(config.twitter);
 
-var stream = T.stream('statuses/filter', {track: config.tags.join(',')});
+var stream = T.stream('statuses/filter', {track: config.hashtags.join(',')});
 
 var parsed = function(tweet) {
 	media = null;
@@ -60,7 +60,6 @@ stream.on('tweet', function(tweet){
 	var t = parsed(tweet);
 	app.io.broadcast('tweet', t);
 });
-
 
 app.get('/', function(req,res){
 	res.render('index');
